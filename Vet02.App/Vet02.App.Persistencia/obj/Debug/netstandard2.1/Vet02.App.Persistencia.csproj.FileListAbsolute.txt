@@ -1,0 +1,12 @@
+C:\Vet02\Vet02.App\Vet02.App.Persistencia\bin\Debug\netstandard2.1\Vet02.App.Persistencia.deps.json
+C:\Vet02\Vet02.App\Vet02.App.Persistencia\bin\Debug\netstandard2.1\Vet02.App.Persistencia.dll
+C:\Vet02\Vet02.App\Vet02.App.Persistencia\bin\Debug\netstandard2.1\Vet02.App.Persistencia.pdb
+C:\Vet02\Vet02.App\Vet02.App.Persistencia\bin\Debug\netstandard2.1\Vet02.App.Dominio.dll
+C:\Vet02\Vet02.App\Vet02.App.Persistencia\bin\Debug\netstandard2.1\Vet02.App.Dominio.pdb
+C:\Vet02\Vet02.App\Vet02.App.Persistencia\obj\Debug\netstandard2.1\Vet02.App.Persistencia.csprojAssemblyReference.cache
+C:\Vet02\Vet02.App\Vet02.App.Persistencia\obj\Debug\netstandard2.1\Vet02.App.Persistencia.AssemblyInfoInputs.cache
+C:\Vet02\Vet02.App\Vet02.App.Persistencia\obj\Debug\netstandard2.1\Vet02.App.Persistencia.AssemblyInfo.cs
+C:\Vet02\Vet02.App\Vet02.App.Persistencia\obj\Debug\netstandard2.1\Vet02.App.Persistencia.csproj.CoreCompileInputs.cache
+C:\Vet02\Vet02.App\Vet02.App.Persistencia\obj\Debug\netstandard2.1\Vet02.App.Persistencia.csproj.CopyComplete
+C:\Vet02\Vet02.App\Vet02.App.Persistencia\obj\Debug\netstandard2.1\Vet02.App.Persistencia.dll
+C:\Vet02\Vet02.App\Vet02.App.Persistencia\obj\Debug\netstandard2.1\Vet02.App.Persistencia.pdb

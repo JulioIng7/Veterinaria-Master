@@ -1,0 +1,9 @@
+C:\Vet02\Vet02.App\Vet02.App.Dominio\bin\Debug\netstandard2.1\Vet02.App.Dominio.deps.json
+C:\Vet02\Vet02.App\Vet02.App.Dominio\bin\Debug\netstandard2.1\Vet02.App.Dominio.dll
+C:\Vet02\Vet02.App\Vet02.App.Dominio\bin\Debug\netstandard2.1\Vet02.App.Dominio.pdb
+C:\Vet02\Vet02.App\Vet02.App.Dominio\obj\Debug\netstandard2.1\Vet02.App.Dominio.csprojAssemblyReference.cache
+C:\Vet02\Vet02.App\Vet02.App.Dominio\obj\Debug\netstandard2.1\Vet02.App.Dominio.AssemblyInfoInputs.cache
+C:\Vet02\Vet02.App\Vet02.App.Dominio\obj\Debug\netstandard2.1\Vet02.App.Dominio.AssemblyInfo.cs
+C:\Vet02\Vet02.App\Vet02.App.Dominio\obj\Debug\netstandard2.1\Vet02.App.Dominio.csproj.CoreCompileInputs.cache
+C:\Vet02\Vet02.App\Vet02.App.Dominio\obj\Debug\netstandard2.1\Vet02.App.Dominio.dll
+C:\Vet02\Vet02.App\Vet02.App.Dominio\obj\Debug\netstandard2.1\Vet02.App.Dominio.pdb
