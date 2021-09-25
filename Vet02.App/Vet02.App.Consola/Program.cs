@@ -2,6 +2,7 @@ using System;
 using System.Threading;
 using Vet02.App.Dominio;
 using Vet02.App.Persistencia;
+using Vet02.App.Persistencia;
 
 namespace Vet02.App.Consola
 {
