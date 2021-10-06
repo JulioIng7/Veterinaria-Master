@@ -8,6 +8,10 @@ namespace Vet02.App.Dominio
         public DateTime FechaHClinica{set; get;}
         public string EstadoMascota{set; get;}
         public string Observaviones{set; get;}
-
+        //Relacion con la entidad Diagnostico
+        public Diagnostico Diagnostico{set; get;}
+        //Relacion con la entidad Mascota
+        public Mascota Mascota{set; get;}
+        public int MascotaId{set; get;}
     }
 }
