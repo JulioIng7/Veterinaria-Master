@@ -13,5 +13,6 @@ namespace Vet02.App.Dominio
         public string Password{set; get;}
         public string Sexo{set; get;}
         public int Edad{set; get;}
+        public DateTime FechaInscripcion{set; get;}
     }
 }
