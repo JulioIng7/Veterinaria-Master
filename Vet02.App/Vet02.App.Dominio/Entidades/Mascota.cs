@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 
 namespace Vet02.App.Dominio
 {
@@ -8,10 +9,13 @@ namespace Vet02.App.Dominio
         public string Nombre{set; get;}
         public string TipoAnimal{set; get;}
         public string Raza{set; get;}
-        //public Cuidador CuidadorM{set; get;} // Composicion
-        public Genero GeneroM{set; get;}
-        public int IdCuidador{set; get;}
-        public int IdHistoriaClinica{set; get;}
         public int Edad{set; get;}
+        public string Genero{set; get;}
+        //Relacion con la entidad Cita
+        public ICollection<Cita> Citas{set; get;}
+        //Relacion con la entidad Vacuna
+        public ICollection<Vacuna> Vacunas{set; get;}
+        //Relacion con la entidad HistoriaMedica
+        public HistoriaMedica HistoriaMedica{set; get;}
     }
 }
