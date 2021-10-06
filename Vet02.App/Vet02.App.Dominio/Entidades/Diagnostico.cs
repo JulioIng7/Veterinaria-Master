@@ -8,5 +8,8 @@ namespace Vet02.App.Dominio
         public string DiagnosticoMascota{set; get;}
         public string Recomendaciones{set; get;}
         public int IdHistoriaMedica{set; get;}
+        //Relacion con la entidad HistoriaMedica
+        public HistoriaMedica HistoriaMedica{set; get;}
+        public int HistoriaMedicaId{set;get;}
     }
 }
