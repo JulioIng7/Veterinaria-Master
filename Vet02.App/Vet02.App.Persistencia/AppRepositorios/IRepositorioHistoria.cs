@@ -7,10 +7,10 @@ namespace Vet02.App.Persistencia
 {
     public interface IRepositorioHistoria
     {
-        IEnumerable<HistoriaClinica> GetAllHistorias();
-        HistoriaClinica AddHistoria(HistoriaClinica historia);
-        HistoriaClinica UpdateHistoria(HistoriaClinica nuevaHistoria);
-        HistoriaClinica GetHistoriaMedica(int historiaId);
+        IEnumerable<HistoriaMedica> GetAllHistorias();
+        HistoriaMedica AddHistoria(HistoriaMedica historia);
+        HistoriaMedica UpdateHistoria(HistoriaMedica nuevaHistoria);
+        HistoriaMedica GetHistoriaMedica(int historiaId);
         void DeleteHistoria(int historiaId);
     }
 }
