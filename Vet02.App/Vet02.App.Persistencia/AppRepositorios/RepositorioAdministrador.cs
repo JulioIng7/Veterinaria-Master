@@ -13,43 +13,49 @@ namespace Vet02.App.Persistencia
         {
             this.appContext = appContextParam;
         }
+        //Obtener una coleccion de datos de tipo Administrador de la tabla Administradores en la base de datos
         IEnumerable<Administrador> IRepositorioAdministrador.GetAllAdministradores()
         {
-            return null;
+            return this.appContext.Administradores;
         }
+        //Adicionar registro a tabla Administradores de un objeto admin
         Administrador IRepositorioAdministrador.AddAdministrador(Administrador admin)
         {
             var adminAdicionado = this.appContext.Administradores.Add(admin);
             this.appContext.SaveChanges();
             return adminAdicionado.Entity;
         }
-        Administrador IRepositorioAdministrador.UpdateAdministrador(Administrador admin)
+        //Actualizar un registro de la tabla Administradores con los datos del objeto nuevoAdmin
+        Administrador IRepositorioAdministrador.UpdateAdministrador(Administrador nuevoAdmin)
         {
-            var adminAdicionado = this.appContext.Administradores.Add(admin);
-            this.appContext.SaveChanges();
-            return adminAdicionado.Entity;
+            var adminEncontrado = this.appContext.Administradores.FirstOrDefault(nuevoAdmin.Id);
+            if(adminEncontrado != null)
+            {
+                adminEncontrado.Nombre = nuevoAdmin.Nombre;
+                adminEncontrado.Apellidos = nuevoAdmin.Apellidos;
+                adminEncontrado.Edad = nuevoAdmin.Edad;
+                adminEncontrado.NumeroDocumento = nuevoAdmin.NumeroDocumento;
+                adminEncontrado.Sexo = nuevoAdmin.Sexo;
+                adminEncontrado.Email = nuevoAdmin.Email;
+                adminEncontrado.Password = nuevoAdmin.Password;
+                this.appContext.SaveChanges();
+            }
+            return adminEncontrado;
         }
-        void IRepositorioAdministrador.DeleteAdministrador(int numDocAdmin)
+        //Borrar un registro de la tabla Administradores en la base de datos
+        void IRepositorioAdministrador.DeleteAdministrador(int adminId)
         {
-            var adminEncontrado = this.appContext.Administradores.FirstOrDefault(a => a.NumeroDocumento == numDocAdmin);
+            var adminEncontrado = this.appContext.Administradores.FirstOrDefault(a => a.Id == adminId);
             if(adminEncontrado != null)
             {
                 this.appContext.Remove(adminEncontrado);
                 this.appContext.SaveChanges();
             }
         }
-        void IRepositorioAdministrador.DeleteAdministradorById(int idAdm)
+        //Obtener un objeto de la clase Administrador registrado en la base de datos segun su Id
+        Administrador IRepositorioAdministrador.GetAdministrador(int adminId)
         {
-            var adminEncontrado = this.appContext.Administradores.FirstOrDefault(a => a.Id == idAdm);
-            if(adminEncontrado != null)
-            {
-                this.appContext.Remove(adminEncontrado);
-                this.appContext.SaveChanges();
-            }
-        }
-        Administrador IRepositorioAdministrador.GetAdministrador(int numDocAdm)
-        {
-            return this.appContext.Administradores.FirstOrDefault(a => a.NumeroDocumento == numDocAdm);
+            return this.appContext.Administradores.FirstOrDefault(a => a.Id == adminId);
         }
     }
 }
