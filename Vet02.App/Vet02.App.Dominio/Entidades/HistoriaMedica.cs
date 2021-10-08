@@ -9,7 +9,7 @@ namespace Vet02.App.Dominio
         public string EstadoMascota{set; get;}
         public string Observaciones{set; get;}
         //Relacion con la entidad Diagnostico
-        public Diagnostico Diagnostico{set; get;}
+        public List<Diagnostico> Diagnosticos{set; get;}
         //Relacion con la entidad Mascota
         public Mascota Mascota{set; get;}
         public int MascotaId{set; get;}
