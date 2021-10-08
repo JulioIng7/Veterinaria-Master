@@ -8,8 +8,7 @@ namespace Vet02.App.Persistencia
         IEnumerable<Administrador> GetAllAdministradores();
         Administrador AddAdministrador(Administrador admin);
         Administrador UpdateAdministrador(Administrador admin);
-        void DeleteAdministrador(int numDocAdm);
-        void DeleteAdministradorById(int idAdm);
         Administrador GetAdministrador(int numDocAdm);
+        void DeleteAdministrador(int numDocAdm);
     }
 }
