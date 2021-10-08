@@ -7,7 +7,7 @@ namespace Vet02.App.Persistencia
     {
         IEnumerable<Veterinario> GetAllVeterinarios();
         Veterinario AddVeterinario(Veterinario vet);
-        Veterinario UpdateVeterinario(Veterinario vet);
+        Veterinario UpdateVeterinario(Veterinario nuevoVet);
         void DeleteVeterinario(int veterinarioId);
         Veterinario GetVeterinario(int veterinarioId);
     }
