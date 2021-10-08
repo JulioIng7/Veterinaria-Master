@@ -1,16 +1,16 @@
 using System;
 using System.Linq;
 using System.Collections.Generic;
-using VeterinaryG02.App.Dominio;
+using Vet02.App.Dominio;
 
-namespace VeterinaryG02.App.Persistencia
+namespace Vet02.App.Persistencia
 {
     public interface IRepositorioMascota
     {
          IEnumerable<Mascota> GetAllMascotas();
-         Mascota AddMascota(Mascota nuevaMascota);
-         Mascota UpdateMascota(Mascota actMascota);
-         Mascota GetMascota(int idMascota);
-         void DeleteMascota(int idMascota);
+         Mascota AddMascota(Mascota mascota);
+         Mascota UpdateMascota(Mascota nuevaMascota);
+         Mascota GetMascota(int mascotaId);
+         void DeleteMascota(int mascotaId);
     }
 }
