@@ -8,11 +8,10 @@ namespace Vet02.App.Dominio
         public string Nombre{set; get;}
         public string Apellidos{set; get;}
     	public int NumeroDocumento{set; get;}
-        public DateTime FechaRegistro{set; get;}
+        public DateTime FechaRegistro{set; get;} = DateTime.Now;
         public string Email{set; get;}
         public string Password{set; get;}
         public string Sexo{set; get;}
         public int Edad{set; get;}
-        public DateTime FechaInscripcion{set; get;}
     }
 }
