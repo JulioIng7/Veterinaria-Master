@@ -10,7 +10,7 @@ namespace Vet02.App.Persistencia
         IEnumerable<HistoriaClinica> GetAllHistorias();
         HistoriaClinica AddHistoria(HistoriaClinica historia);
         HistoriaClinica UpdateHistoria(HistoriaClinica nuevaHistoria);
-        HistoriaClinica GetHistoriaClinica(int historiaId);
+        HistoriaClinica GetHistoriaMedica(int historiaId);
         void DeleteHistoria(int historiaId);
     }
 }
