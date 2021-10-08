@@ -48,9 +48,10 @@ namespace Vet02.App.Persistencia
             var adminEncontrado = this.appContext.Administradores.FirstOrDefault(a => a.Id == adminId);
             if(adminEncontrado != null)
             {
-                this.appContext.Remove(adminEncontrado);
-                this.appContext.SaveChanges();
+                return;
             }
+            this.appContext.Remove(adminEncontrado);
+            this.appContext.SaveChanges();
         }
         //Obtener un objeto de la clase Administrador registrado en la base de datos segun su Id
         Administrador IRepositorioAdministrador.GetAdministrador(int adminId)
