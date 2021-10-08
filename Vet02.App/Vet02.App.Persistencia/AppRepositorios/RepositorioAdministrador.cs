@@ -38,6 +38,7 @@ namespace Vet02.App.Persistencia
                 adminEncontrado.Sexo = nuevoAdmin.Sexo;
                 adminEncontrado.Email = nuevoAdmin.Email;
                 adminEncontrado.Password = nuevoAdmin.Password;
+                adminEncontrado.Cargo = nuevoAdmin.Cargo;
                 this.appContext.SaveChanges();
             }
             return adminEncontrado;
