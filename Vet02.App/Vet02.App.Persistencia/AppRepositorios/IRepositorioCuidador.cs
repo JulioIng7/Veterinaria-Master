@@ -1,5 +1,6 @@
 using Vet02.App.Dominio;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace Vet02.App.Persistencia
 {
