@@ -1,16 +1,16 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using VeterinaryG02.App.Dominio;
+using Vet02.App.Dominio;
 
-namespace VeterinaryG02.App.Persistencia
+namespace Vet02.App.Persistencia
 {
     public interface IRepositorioVacuna
     {
         IEnumerable<Vacuna> GetAllVacunas();
-        Vacuna AddVacuna(Vacuna nuevaVacuna);
-        Vacuna UpdateVacuna(Vacuna actVacuna);
-        Vacuna GetVacuna(int idVacuna);
-        void DeleteVacuna(int idVacuna);
+        Vacuna AddVacuna(Vacuna vacuna);
+        Vacuna UpdateVacuna(Vacuna nuevaVacuna);
+        Vacuna GetVacuna(int vacunaId);
+        void DeleteVacuna(int vacunaId);
     }
 }
