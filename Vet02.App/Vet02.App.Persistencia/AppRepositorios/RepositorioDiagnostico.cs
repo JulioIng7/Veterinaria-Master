@@ -1,9 +1,9 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using VeterinaryG02.App.Dominio;
+using Vet02.App.Dominio;
 
-namespace VeterinaryG02.App.Persistencia
+namespace Vet02.App.Persistencia
 {
     public class RepositorioDiagnostico : IRepositorioDiagnostico
     {
@@ -12,39 +12,44 @@ namespace VeterinaryG02.App.Persistencia
         {
             this.appContext = appContextParam;
         }
+        //Obtener una coleccion de datos de tipo Diagnostico de la tabla Diagnosticos en la base de datos
         IEnumerable<Diagnostico> IRepositorioDiagnostico.GetAllDiagnosticos()
         {
-            return this.appContext.TblDiagnostico;
+            return this.appContext.Diagnosticos;
         }
-        Diagnostico IRepositorioDiagnostico.AddDiagnostico(Diagnostico nuevoDiagnostico)
+        //Adicionar registro a tabla Diagnosticos de un objeto diagnostico
+        Diagnostico IRepositorioDiagnostico.AddDiagnostico(Diagnostico diagnostico)
         {
-            var diagnosticoAdicionado = this.appContext.TblDiagnostico.Add(nuevoDiagnostico);
+            var diagnosticoAdicionado = this.appContext.Diagnosticos.Add(diagnostico);
             this.appContext.SaveChanges();
             return diagnosticoAdicionado.Entity;
         }
-        Diagnostico IRepositorioDiagnostico.UpdateDiagnostico(Diagnostico actDiagnostico)
+        //Actualizar un registro de la tabla Diagnostico con los datos del objeto nuevoDiagnostico        
+        Diagnostico IRepositorioDiagnostico.UpdateDiagnostico(Diagnostico nuevoDiagnostico)
         {
-            var diagnosticoEncontrado = this.appContext.TblDiagnostico.FirstOrDefault(d => d.Id == actDiagnostico.Id);
+            var diagnosticoEncontrado = this.appContext.Diagnosticos.FirstOrDefault(d => d.Id == nuevoDiagnostico.Id);
             if(diagnosticoEncontrado != null)
             {
                 diagnosticoEncontrado.DiagnosticoMascota = actDiagnostico.DiagnosticoMascota;
-                diagnosticoEncontrado.SugerenciaCuidado = actDiagnostico.SugerenciaCuidado;
-                diagnosticoEncontrado.HistoriaClinicaId = actDiagnostico.HistoriaClinicaId;
+                diagnosticoEncontrado.Recomendaciones = actDiagnostico.Recomendaciones;
+                diagnosticoEncontrado.HistoriaMedicaId = actDiagnostico.HistoriaMedicaId;
             }
             return diagnosticoEncontrado;
         }
-        Diagnostico IRepositorioDiagnostico.GetDiagnostico(int idDiagnostico)
+        //Obtener un objeto de la clase Diagnostico registrado en la base de datos segun su Id        
+        Diagnostico IRepositorioDiagnostico.GetDiagnostico(int diagnosticoId)
         {
-            return this.appContext.TblDiagnostico.FirstOrDefault(d => d.Id == idDiagnostico);
+            return this.appContext.Diagnosticos.FirstOrDefault(d => d.Id == diagnosticoId);
         }
-        void IRepositorioDiagnostico.DeleteDiagnostico(int idDiagnostico)
+        //Borrar un registro de la tabla Diagnosticos en la base de datos        
+        void IRepositorioDiagnostico.DeleteDiagnostico(int diagnosticoId)
         {
-            var diagnosticoEncontrado = this.appContext.TblDiagnostico.FirstOrDefault(d => d.Id == idDiagnostico);
+            var diagnosticoEncontrado = this.appContext.Diagnosticos.FirstOrDefault(d => d.Id == diagnosticoId);
             if(diagnosticoEncontrado == null)
             {
                 return;
             }
-            this.appContext.TblDiagnostico.Remove(diagnosticoEncontrado);
+            this.appContext.Diagnosticos.Remove(diagnosticoEncontrado);
             this.appContext.SaveChanges();
         }
     }
