@@ -46,7 +46,7 @@ namespace Vet02.App.Persistencia
         //Borrar un registro de la tabla Cuidadores en la base de datos
         void IRepositorioCuidador.DeleteCuidador(int cuidadorId)
         {
-            var cuidadorEncontrado = this.appContext.Cuidadores.FirsOrDefault(c => c.Id == cuidadorId);
+            var cuidadorEncontrado = this.appContext.Cuidadores.FirstOrDefault(c => c.Id == cuidadorId);
             if(cuidadorEncontrado == null)
             {
                 return;

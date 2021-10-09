@@ -27,7 +27,7 @@ namespace Vet02.App.Persistencia
         //Actualizar un registro de la tabla Vacunas con los datos del objeto nuevaVacuna        
         Vacuna IRepositorioVacuna.UpdateVacuna(Vacuna nuevaVacuna)
         {
-            var vacunaEncontrada = this.appContext.TblVacuna.FirstOrDefault(v => v.Id == nuevaVacuna.Id);
+            var vacunaEncontrada = this.appContext.Vacunas.FirstOrDefault(v => v.Id == nuevaVacuna.Id);
             if(vacunaEncontrada != null)
             {
                 vacunaEncontrada.Laboratorio = nuevaVacuna.Laboratorio;

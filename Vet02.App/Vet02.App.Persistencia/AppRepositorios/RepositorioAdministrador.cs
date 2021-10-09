@@ -28,7 +28,7 @@ namespace Vet02.App.Persistencia
         //Actualizar un registro de la tabla Administradores con los datos del objeto nuevoAdmin
         Administrador IRepositorioAdministrador.UpdateAdministrador(Administrador nuevoAdmin)
         {
-            var adminEncontrado = this.appContext.Administradores.FirstOrDefault(nuevoAdmin.Id);
+            var adminEncontrado = this.appContext.Administradores.FirstOrDefault(a => a.Id == nuevoAdmin.Id);
             if(adminEncontrado != null)
             {
                 adminEncontrado.Nombre = nuevoAdmin.Nombre;

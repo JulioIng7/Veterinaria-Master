@@ -10,3 +10,15 @@ C:\Vet02\Vet02.App\Vet02.App.Persistencia\obj\Debug\netstandard2.1\Vet02.App.Per
 C:\Vet02\Vet02.App\Vet02.App.Persistencia\obj\Debug\netstandard2.1\Vet02.App.Persistencia.csproj.CopyComplete
 C:\Vet02\Vet02.App\Vet02.App.Persistencia\obj\Debug\netstandard2.1\Vet02.App.Persistencia.dll
 C:\Vet02\Vet02.App\Vet02.App.Persistencia\obj\Debug\netstandard2.1\Vet02.App.Persistencia.pdb
+C:\ProyectoVeterinariaG02\Veterinaria-Master\Vet02.App\Vet02.App.Persistencia\obj\Debug\netstandard2.1\Vet02.App.Persistencia.dll
+C:\ProyectoVeterinariaG02\Veterinaria-Master\Vet02.App\Vet02.App.Persistencia\obj\Debug\netstandard2.1\Vet02.App.Persistencia.pdb
+C:\ProyectoVeterinariaG02\Veterinaria-Master\Vet02.App\Vet02.App.Persistencia\obj\Debug\netstandard2.1\Vet02.App.Persistencia.csprojAssemblyReference.cache
+C:\ProyectoVeterinariaG02\Veterinaria-Master\Vet02.App\Vet02.App.Persistencia\obj\Debug\netstandard2.1\Vet02.App.Persistencia.AssemblyInfoInputs.cache
+C:\ProyectoVeterinariaG02\Veterinaria-Master\Vet02.App\Vet02.App.Persistencia\obj\Debug\netstandard2.1\Vet02.App.Persistencia.AssemblyInfo.cs
+C:\ProyectoVeterinariaG02\Veterinaria-Master\Vet02.App\Vet02.App.Persistencia\obj\Debug\netstandard2.1\Vet02.App.Persistencia.csproj.CoreCompileInputs.cache
+C:\ProyectoVeterinariaG02\Veterinaria-Master\Vet02.App\Vet02.App.Persistencia\bin\Debug\netstandard2.1\Vet02.App.Persistencia.deps.json
+C:\ProyectoVeterinariaG02\Veterinaria-Master\Vet02.App\Vet02.App.Persistencia\bin\Debug\netstandard2.1\Vet02.App.Persistencia.dll
+C:\ProyectoVeterinariaG02\Veterinaria-Master\Vet02.App\Vet02.App.Persistencia\bin\Debug\netstandard2.1\Vet02.App.Persistencia.pdb
+C:\ProyectoVeterinariaG02\Veterinaria-Master\Vet02.App\Vet02.App.Persistencia\bin\Debug\netstandard2.1\Vet02.App.Dominio.dll
+C:\ProyectoVeterinariaG02\Veterinaria-Master\Vet02.App\Vet02.App.Persistencia\bin\Debug\netstandard2.1\Vet02.App.Dominio.pdb
+C:\ProyectoVeterinariaG02\Veterinaria-Master\Vet02.App\Vet02.App.Persistencia\obj\Debug\netstandard2.1\Vet02.App.Persistencia.csproj.CopyComplete

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Vet02\\Vet02.App\\Vet02.App.Consola\\Vet02.App.Consola.csproj": {}
+    "C:\\ProyectoVeterinariaG02\\Veterinaria-Master\\Vet02.App\\Vet02.App.Consola\\Vet02.App.Consola.csproj": {}
   },
   "projects": {
-    "C:\\Vet02\\Vet02.App\\Vet02.App.Consola\\Vet02.App.Consola.csproj": {
+    "C:\\ProyectoVeterinariaG02\\Veterinaria-Master\\Vet02.App\\Vet02.App.Consola\\Vet02.App.Consola.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Vet02\\Vet02.App\\Vet02.App.Consola\\Vet02.App.Consola.csproj",
+        "projectUniqueName": "C:\\ProyectoVeterinariaG02\\Veterinaria-Master\\Vet02.App\\Vet02.App.Consola\\Vet02.App.Consola.csproj",
         "projectName": "Vet02.App.Consola",
-        "projectPath": "C:\\Vet02\\Vet02.App\\Vet02.App.Consola\\Vet02.App.Consola.csproj",
+        "projectPath": "C:\\ProyectoVeterinariaG02\\Veterinaria-Master\\Vet02.App\\Vet02.App.Consola\\Vet02.App.Consola.csproj",
         "packagesPath": "C:\\Users\\Sebastian RM\\.nuget\\packages\\",
-        "outputPath": "C:\\Vet02\\Vet02.App\\Vet02.App.Consola\\obj\\",
+        "outputPath": "C:\\ProyectoVeterinariaG02\\Veterinaria-Master\\Vet02.App\\Vet02.App.Consola\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Sebastian RM\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -25,11 +25,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Vet02\\Vet02.App\\Vet02.App.Dominio\\Vet02.App.Dominio.csproj": {
-                "projectPath": "C:\\Vet02\\Vet02.App\\Vet02.App.Dominio\\Vet02.App.Dominio.csproj"
+              "C:\\ProyectoVeterinariaG02\\Veterinaria-Master\\Vet02.App\\Vet02.App.Dominio\\Vet02.App.Dominio.csproj": {
+                "projectPath": "C:\\ProyectoVeterinariaG02\\Veterinaria-Master\\Vet02.App\\Vet02.App.Dominio\\Vet02.App.Dominio.csproj"
               },
-              "C:\\Vet02\\Vet02.App\\Vet02.App.Persistencia\\Vet02.App.Persistencia.csproj": {
-                "projectPath": "C:\\Vet02\\Vet02.App\\Vet02.App.Persistencia\\Vet02.App.Persistencia.csproj"
+              "C:\\ProyectoVeterinariaG02\\Veterinaria-Master\\Vet02.App\\Vet02.App.Persistencia\\Vet02.App.Persistencia.csproj": {
+                "projectPath": "C:\\ProyectoVeterinariaG02\\Veterinaria-Master\\Vet02.App\\Vet02.App.Persistencia\\Vet02.App.Persistencia.csproj"
               }
             }
           }
@@ -69,14 +69,14 @@
         }
       }
     },
-    "C:\\Vet02\\Vet02.App\\Vet02.App.Dominio\\Vet02.App.Dominio.csproj": {
+    "C:\\ProyectoVeterinariaG02\\Veterinaria-Master\\Vet02.App\\Vet02.App.Dominio\\Vet02.App.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Vet02\\Vet02.App\\Vet02.App.Dominio\\Vet02.App.Dominio.csproj",
+        "projectUniqueName": "C:\\ProyectoVeterinariaG02\\Veterinaria-Master\\Vet02.App\\Vet02.App.Dominio\\Vet02.App.Dominio.csproj",
         "projectName": "Vet02.App.Dominio",
-        "projectPath": "C:\\Vet02\\Vet02.App\\Vet02.App.Dominio\\Vet02.App.Dominio.csproj",
+        "projectPath": "C:\\ProyectoVeterinariaG02\\Veterinaria-Master\\Vet02.App\\Vet02.App.Dominio\\Vet02.App.Dominio.csproj",
         "packagesPath": "C:\\Users\\Sebastian RM\\.nuget\\packages\\",
-        "outputPath": "C:\\Vet02\\Vet02.App\\Vet02.App.Dominio\\obj\\",
+        "outputPath": "C:\\ProyectoVeterinariaG02\\Veterinaria-Master\\Vet02.App\\Vet02.App.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Sebastian RM\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -119,14 +119,14 @@
         }
       }
     },
-    "C:\\Vet02\\Vet02.App\\Vet02.App.Persistencia\\Vet02.App.Persistencia.csproj": {
+    "C:\\ProyectoVeterinariaG02\\Veterinaria-Master\\Vet02.App\\Vet02.App.Persistencia\\Vet02.App.Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Vet02\\Vet02.App\\Vet02.App.Persistencia\\Vet02.App.Persistencia.csproj",
+        "projectUniqueName": "C:\\ProyectoVeterinariaG02\\Veterinaria-Master\\Vet02.App\\Vet02.App.Persistencia\\Vet02.App.Persistencia.csproj",
         "projectName": "Vet02.App.Persistencia",
-        "projectPath": "C:\\Vet02\\Vet02.App\\Vet02.App.Persistencia\\Vet02.App.Persistencia.csproj",
+        "projectPath": "C:\\ProyectoVeterinariaG02\\Veterinaria-Master\\Vet02.App\\Vet02.App.Persistencia\\Vet02.App.Persistencia.csproj",
         "packagesPath": "C:\\Users\\Sebastian RM\\.nuget\\packages\\",
-        "outputPath": "C:\\Vet02\\Vet02.App\\Vet02.App.Persistencia\\obj\\",
+        "outputPath": "C:\\ProyectoVeterinariaG02\\Veterinaria-Master\\Vet02.App\\Vet02.App.Persistencia\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Sebastian RM\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -140,8 +140,8 @@
         "frameworks": {
           "netstandard2.1": {
             "projectReferences": {
-              "C:\\Vet02\\Vet02.App\\Vet02.App.Dominio\\Vet02.App.Dominio.csproj": {
-                "projectPath": "C:\\Vet02\\Vet02.App\\Vet02.App.Dominio\\Vet02.App.Dominio.csproj"
+              "C:\\ProyectoVeterinariaG02\\Veterinaria-Master\\Vet02.App\\Vet02.App.Dominio\\Vet02.App.Dominio.csproj": {
+                "projectPath": "C:\\ProyectoVeterinariaG02\\Veterinaria-Master\\Vet02.App\\Vet02.App.Dominio\\Vet02.App.Dominio.csproj"
               }
             }
           }

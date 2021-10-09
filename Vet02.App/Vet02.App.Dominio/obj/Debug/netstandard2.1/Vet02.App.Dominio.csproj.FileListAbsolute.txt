@@ -7,3 +7,12 @@ C:\Vet02\Vet02.App\Vet02.App.Dominio\obj\Debug\netstandard2.1\Vet02.App.Dominio.
 C:\Vet02\Vet02.App\Vet02.App.Dominio\obj\Debug\netstandard2.1\Vet02.App.Dominio.csproj.CoreCompileInputs.cache
 C:\Vet02\Vet02.App\Vet02.App.Dominio\obj\Debug\netstandard2.1\Vet02.App.Dominio.dll
 C:\Vet02\Vet02.App\Vet02.App.Dominio\obj\Debug\netstandard2.1\Vet02.App.Dominio.pdb
+C:\ProyectoVeterinariaG02\Veterinaria-Master\Vet02.App\Vet02.App.Dominio\obj\Debug\netstandard2.1\Vet02.App.Dominio.csprojAssemblyReference.cache
+C:\ProyectoVeterinariaG02\Veterinaria-Master\Vet02.App\Vet02.App.Dominio\obj\Debug\netstandard2.1\Vet02.App.Dominio.AssemblyInfoInputs.cache
+C:\ProyectoVeterinariaG02\Veterinaria-Master\Vet02.App\Vet02.App.Dominio\obj\Debug\netstandard2.1\Vet02.App.Dominio.AssemblyInfo.cs
+C:\ProyectoVeterinariaG02\Veterinaria-Master\Vet02.App\Vet02.App.Dominio\obj\Debug\netstandard2.1\Vet02.App.Dominio.csproj.CoreCompileInputs.cache
+C:\ProyectoVeterinariaG02\Veterinaria-Master\Vet02.App\Vet02.App.Dominio\obj\Debug\netstandard2.1\Vet02.App.Dominio.dll
+C:\ProyectoVeterinariaG02\Veterinaria-Master\Vet02.App\Vet02.App.Dominio\obj\Debug\netstandard2.1\Vet02.App.Dominio.pdb
+C:\ProyectoVeterinariaG02\Veterinaria-Master\Vet02.App\Vet02.App.Dominio\bin\Debug\netstandard2.1\Vet02.App.Dominio.deps.json
+C:\ProyectoVeterinariaG02\Veterinaria-Master\Vet02.App\Vet02.App.Dominio\bin\Debug\netstandard2.1\Vet02.App.Dominio.dll
+C:\ProyectoVeterinariaG02\Veterinaria-Master\Vet02.App\Vet02.App.Dominio\bin\Debug\netstandard2.1\Vet02.App.Dominio.pdb

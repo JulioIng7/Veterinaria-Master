@@ -331,7 +331,6 @@ namespace Vet02.App.Consola
             Administrador adminEncontrado = repositorioAdministrador.GetAdministrador(numDocAdm);
             if(adminEncontrado != null)
             {
-                repositorioAdministrador.DeleteAdministradorById(adminEncontrado.Id);
                 Console.WriteLine("\nNombre de Administrador: "+adminEncontrado.Nombre);
                 Console.WriteLine("Desea editar? (S/N): ");
                 string conf = Console.ReadLine();

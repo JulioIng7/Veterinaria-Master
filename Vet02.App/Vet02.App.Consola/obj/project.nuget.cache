@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZkZ3px8remOF58h3qKMr5bEYECfLTaw8Dwt8d0HfySrPGh1aEnkamBsCPzuJwEW7H85VbCX9GUuCRqEPFPkwBw==",
+  "dgSpecHash": "zgbwK3Z6uuW/RL1cAS/vw4sjMAn7Zurr3S7kngTsX3Wv+TaOungm8lwCwugOegOQ8yPYLtutl2k8OWXvfQ29yQ==",
   "success": true,
-  "projectFilePath": "C:\\Vet02\\Vet02.App\\Vet02.App.Consola\\Vet02.App.Consola.csproj",
+  "projectFilePath": "C:\\ProyectoVeterinariaG02\\Veterinaria-Master\\Vet02.App\\Vet02.App.Consola\\Vet02.App.Consola.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Sebastian RM\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Sebastian RM\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

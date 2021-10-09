@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Vet02\\Vet02.App\\Vet02.App.Dominio\\Vet02.App.Dominio.csproj",
+      "projectUniqueName": "C:\\ProyectoVeterinariaG02\\Veterinaria-Master\\Vet02.App\\Vet02.App.Dominio\\Vet02.App.Dominio.csproj",
       "projectName": "Vet02.App.Dominio",
-      "projectPath": "C:\\Vet02\\Vet02.App\\Vet02.App.Dominio\\Vet02.App.Dominio.csproj",
+      "projectPath": "C:\\ProyectoVeterinariaG02\\Veterinaria-Master\\Vet02.App\\Vet02.App.Dominio\\Vet02.App.Dominio.csproj",
       "packagesPath": "C:\\Users\\Sebastian RM\\.nuget\\packages\\",
-      "outputPath": "C:\\Vet02\\Vet02.App\\Vet02.App.Dominio\\obj\\",
+      "outputPath": "C:\\ProyectoVeterinariaG02\\Veterinaria-Master\\Vet02.App\\Vet02.App.Dominio\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Sebastian RM\\AppData\\Roaming\\NuGet\\NuGet.Config"

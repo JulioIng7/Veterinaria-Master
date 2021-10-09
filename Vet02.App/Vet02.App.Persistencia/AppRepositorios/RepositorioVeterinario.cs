@@ -17,7 +17,7 @@ namespace Vet02.App.Persistencia
         //Obtener una coleccion de datos de tipo Veterinario de la tabla Veterinarios de la base de datos
         IEnumerable<Veterinario> IRepositorioVeterinario.GetAllVeterinarios()
         {
-            this.appContext.Veterinarios;
+            return this.appContext.Veterinarios;
         }
         //Adicionar registro a tabla Veterinarios de un objeto vet
         Veterinario IRepositorioVeterinario.AddVeterinario(Veterinario vet)
@@ -29,7 +29,7 @@ namespace Vet02.App.Persistencia
         //Actualizar un registro de la tabla Veterinarios con los datos del objeto nuevoVet
         Veterinario IRepositorioVeterinario.UpdateVeterinario(Veterinario nuevoVet)
         {
-            var veterinarioEncontrado = this.appContext.Veterinarios.FirsOrDefault(v => v.Id == nuevoVet.Id);
+            var veterinarioEncontrado = this.appContext.Veterinarios.FirstOrDefault(v => v.Id == nuevoVet.Id);
             if(veterinarioEncontrado != null)
             {
                 veterinarioEncontrado.Nombre = nuevoVet.Nombre;

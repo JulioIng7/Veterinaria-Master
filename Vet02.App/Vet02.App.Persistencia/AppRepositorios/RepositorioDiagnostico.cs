@@ -30,9 +30,9 @@ namespace Vet02.App.Persistencia
             var diagnosticoEncontrado = this.appContext.Diagnosticos.FirstOrDefault(d => d.Id == nuevoDiagnostico.Id);
             if(diagnosticoEncontrado != null)
             {
-                diagnosticoEncontrado.DiagnosticoMascota = actDiagnostico.DiagnosticoMascota;
-                diagnosticoEncontrado.Recomendaciones = actDiagnostico.Recomendaciones;
-                diagnosticoEncontrado.HistoriaMedicaId = actDiagnostico.HistoriaMedicaId;
+                diagnosticoEncontrado.DiagnosticoMascota = nuevoDiagnostico.DiagnosticoMascota;
+                diagnosticoEncontrado.Recomendaciones = nuevoDiagnostico.Recomendaciones;
+                diagnosticoEncontrado.HistoriaMedicaId = nuevoDiagnostico.HistoriaMedicaId;
             }
             return diagnosticoEncontrado;
         }
