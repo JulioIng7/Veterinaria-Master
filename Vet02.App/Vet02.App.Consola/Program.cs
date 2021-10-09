@@ -12,10 +12,10 @@ namespace Vet02.App.Consola
         private static IRepositorioAdministrador repositorioAdministrador = new RepositorioAdministrador(new Persistencia.AppContext());
         static void Main(string[] args)
         {
-            MenuPrincipal();
+            //MenuPrincipal();
         }
 
-        static void MenuPrincipal()
+        /*static void MenuPrincipal()
         {
             string opc = "n";
             while (!opc.ToUpper().Equals("S"))
@@ -403,6 +403,6 @@ namespace Vet02.App.Consola
             Console.Write("Digite Numero de documento de Aministrador: ");
             int idAmin = Convert.ToInt32(Console.ReadLine());
             repositorioAdministrador.DeleteAdministrador(idAmin);
-        }
+        }*/
     }
 }
